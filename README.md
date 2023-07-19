@@ -4,7 +4,8 @@ Responsive Pricing table with HTML and CSS.
 
 ## Desktop view:
 
-![desktop](https://github.com/sai-mudike/Price-Panel-Page/assets/127184650/ef029f44-a2c8-4fa1-b991-200d635f415b)
+![Screenshot (11)](https://github.com/sai-mudike/Price-Panel-Page/assets/127184650/f7ffcae2-81a5-49df-94e3-7bbdf5a81edb)
+
 
 ## Mobile view:
 
