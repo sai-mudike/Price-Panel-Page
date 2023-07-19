@@ -146,12 +146,13 @@ button {
     border: 0;
     color: white;
     font-weight: 200;
-transition: all 0.1s;
+    transition: all 0.1s;
 
 }
-button:hover{
-    cursor:pointer;
-    transform:translateY(2px);
+
+button:hover {
+    cursor: pointer;
+    transform: translateY(2px)
 }
 
 .c1 button {
