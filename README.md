@@ -1,5 +1,5 @@
 # Price-Panel-Page
-Responsive Pricing table with HTML and CSS
+Responsive Pricing table with HTML and CSS.
 [click here](https://sai-mudike.github.io/Price-Panel-Page/) to view.
 
 ## Desktop view:
