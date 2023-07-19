@@ -1,0 +1,163 @@
+:root {
+    --firstCard: linear-gradient(120deg, #F0CB35, #C02425);
+    --secondCard: linear-gradient(120deg, #1CB5E0, #000046);
+    --thirdCard: linear-gradient(120deg, #67B26F, #4ca2cd);
+    --black: #111111;
+    --white: #ffffff;
+    --liteGray: rgb(151, 143, 143);
+    --darkGray: rgb(69, 67, 67);
+}
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(237, 240, 248);
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    max-width: 250px;
+    height: 600px;
+    border-radius: 1.4rem;
+    background-color: var(--white);
+}
+
+.title-box {
+
+    border-top-left-radius: 1.3rem;
+    border-top-right-radius: 1.3rem;
+    color: var(--white);
+    text-align: center;
+    padding: 1rem;
+}
+
+.c1 .title-box {
+    background-image: var(--firstCard);
+}
+
+.c2 .title-box {
+    background-image: var(--secondCard);
+}
+
+.c3 .title-box {
+    background-image: var(--thirdCard);
+}
+
+.title-box h2 {
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.title-box hr {
+    width: 90%;
+    height: 1.5px;
+    background-color: var(--white);
+    border: 0;
+}
+
+.title-box p {
+
+    font-size: 0.6rem;
+    line-height: 1.3rem;
+    width: 100%;
+}
+
+.details {
+    text-align: center;
+}
+
+
+
+.dollar {
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+.price {
+    margin: 0;
+    display: inline-block;
+    font-size: 4.5rem;
+    color: var(--black);
+}
+
+.mo {
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: var(--darkGray);
+}
+
+.details hr {
+    width: 50%;
+    height: 1.5px;
+    background-color: var(--liteGray);
+    border: 0;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--liteGray);
+}
+
+
+
+.card-text i {
+    color: transparent;
+    font-size: 1.2rem;
+    margin-right: 5px;
+
+}
+
+.c1 .card-text i {
+    background: var(--firstCard);
+    -webkit-background-clip: text;
+}
+
+.c2 .card-text i {
+    background: var(--secondCard);
+    -webkit-background-clip: text;
+}
+
+.c3 .card-text i {
+    background: var(--thirdCard);
+    -webkit-background-clip: text;
+}
+
+button {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    padding: 1rem;
+    border-radius: 15px;
+    outline: 0;
+    border: 0;
+    color: white;
+    font-weight: 200;
+
+
+}
+
+.c1 button {
+    background-image: var(--firstCard);
+}
+
+.c2 button {
+    background-image: var(--secondCard);
+}
+
+.c3 button {
+    background-image: var(--thirdCard);
+}
